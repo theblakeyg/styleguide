@@ -1,0 +1,79 @@
+body {
+    margin: 0 10%;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  
+  h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .roboto {
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .font-label {
+    font-size: 20px;
+  }
+  
+  .italic {
+    font-style: italic;
+  }
+  
+  .regular {
+    font-weight: 400;
+  }
+  
+  .bold {
+    font-weight: 700;
+  }
+  
+  .container {
+    border: 2px solid lightgray;
+    margin: 10px auto;
+    padding: 10px;
+  }
+  
+  .color-container {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .color-panel {
+    display: inline-block;
+    width: 30%;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  .color-name,
+  .color-hex {
+    color: darkslategrey;
+  }
+  
+  .blue {
+    background-color: lightblue;
+  }
+  
+  .red {
+    background-color: crimson;
+  }
+  
+  .green {
+    background-color: lightgreen;
+  }
+  
+  .yellow {
+    background-color: lightyellow;
+  }
+  
+  .orange {
+    background-color: lightcoral;
+  }
+  
+  .purple {
+    background-color: lavender;
+  }
