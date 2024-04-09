@@ -1,0 +1,84 @@
+/* Color Palette */
+:root {
+  --primary-color: #000000; /* Black */
+  --secondary-color: #333333; /* Dark Grey */
+  --tertiary-color: #888888; /* Grey */
+  --background-color: #FFFFFF; /* White */
+  --accent-color: #CCCCCC; /* Light Grey */
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--background-color);
+  color: var(--secondary-color);
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+h1 { font-size: 2.5rem; }
+h2 { font-size: 2.25rem; }
+h3 { font-size: 2rem; }
+h4 { font-size: 1.75rem; }
+h5 { font-size: 1.5rem; }
+h6 { font-size: 1rem; }
+
+p, a, li {
+  font-weight: 400;
+  font-size: 1rem;
+  color: var(--secondary-color);
+}
+
+a:hover, button:hover {
+  color: var(--primary-color);
+  background-color: var(--accent-color);
+}
+
+/* Utility Classes */
+.text-primary {
+  color: var(--primary-color);
+}
+
+.bg-primary {
+  background-color: var(--primary-color);
+}
+
+.border-primary {
+  border-color: var(--primary-color);
+}
+
+/* Example Component Styles */
+.btn {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: 1px solid var(--primary-color);
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+  color: var(--background-color);
+  background-color: var(--primary-color);
+}
+
+.btn-secondary {
+  color: var(--primary-color);
+  background-color: var(--accent-color);
+}
+
+.btn:hover {
+  background-color: var(--tertiary-color);
+  color: var(--background-color);
+}
+
+.card {
+  background-color: var(--background-color);
+  border: 1px solid var(--accent-color);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
