@@ -1,10 +1,12 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 function Header() {
     return (
         <>
             <h1>Style Guide</h1>
-            <p>To be used in rapid prototyping apps</p>
+            <NavLink to="/text">Text</NavLink>
+            <NavLink to="/button">Button</NavLink>
         </>
     )
 }

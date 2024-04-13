@@ -1,0 +1,37 @@
+/* Color Palette */
+:root {
+    --primary-color: #000000; /* Black */
+    --secondary-color: #333333; /* Dark Grey */
+    --tertiary-color: #888888; /* Grey */
+    --background-color: #FFFFFF; /* White */
+    --accent-color: #CCCCCC; /* Light Grey */
+  }
+
+button:hover {
+    color: var(--primary-color);
+    background-color: var(--accent-color);
+  }
+
+/* Example Component Styles */
+.btn {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: 1px solid var(--primary-color);
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary {
+    color: var(--background-color);
+    background-color: var(--primary-color);
+  }
+  
+  .btn-secondary {
+    color: var(--primary-color);
+    background-color: var(--accent-color);
+  }
+  
+  .btn:hover {
+    background-color: var(--tertiary-color);
+    color: var(--background-color);
+  }
