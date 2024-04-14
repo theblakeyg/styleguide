@@ -7,7 +7,7 @@ export default function Root() {
     return (
         <>
             <Header/>
-            <main>
+            <main className="flex-grow mb-20 mt-20">
                 <Outlet/>
             </main>
             <Footer/>
