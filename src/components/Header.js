@@ -7,6 +7,7 @@ function Header() {
             <h1>Style Guide</h1>
             <NavLink to="/text">Text</NavLink>
             <NavLink to="/button">Button</NavLink>
+            <NavLink to="/layout">Layout</NavLink>
         </>
     )
 }
